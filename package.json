@@ -1,0 +1,15 @@
+{
+  "name": "kanbanito",
+  "version": "1.0.0",
+  "description": "Lightweight local-first kanban board for projects and AI agent swarms",
+  "keywords": ["kanban", "project-management", "local-first", "markdown", "cli", "agents"],
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "kanbanito": "./bin/kanbanito.js",
+    "kb": "./bin/kanbanito.js"
+  },
+  "main": "./lib/index.js",
+  "engines": { "node": ">=16" },
+  "files": ["bin", "lib", "README.md"]
+}
